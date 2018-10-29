@@ -1,0 +1,210 @@
+D:/hat_mask_detection/kitchen_data/train_image/004.png 313,113,399,228,0 377,154,439,269,0 525,181,597,272,0
+D:/hat_mask_detection/kitchen_data/train_image/005.png 239,51,279,96,0 753,168,816,288,0 813,157,851,211,0
+D:/hat_mask_detection/kitchen_data/train_image/006.png 113,232,181,321,0
+D:/hat_mask_detection/kitchen_data/train_image/007.png 355,105,391,146,0
+D:/hat_mask_detection/kitchen_data/train_image/008.png 57,39,131,140,0
+D:/hat_mask_detection/kitchen_data/train_image/009.png 429,18,477,103,0
+D:/hat_mask_detection/kitchen_data/train_image/010.png 336,12,365,53,0 684,107,721,162,0
+D:/hat_mask_detection/kitchen_data/train_image/011.png 607,129,698,235,0 94,292,195,412,0
+D:/hat_mask_detection/kitchen_data/train_image/012.png 220,3,268,72,0 312,35,383,183,0
+D:/hat_mask_detection/kitchen_data/train_image/013.png 420,105,502,237,0 435,274,521,385,0 558,48,613,120,0 683,17,725,79,0 122,1,152,31,0
+D:/hat_mask_detection/kitchen_data/train_image/014.png 39,118,80,170,0 692,156,730,203,0
+D:/hat_mask_detection/kitchen_data/train_image/015.png 317,1,394,85,0 313,260,400,351,0
+D:/hat_mask_detection/kitchen_data/train_image/016.png 153,116,194,173,0
+D:/hat_mask_detection/kitchen_data/train_image/017.png 422,266,484,328,0
+D:/hat_mask_detection/kitchen_data/train_image/018.png 313,102,351,167,0 446,105,488,173,0
+D:/hat_mask_detection/kitchen_data/train_image/019.png 169,114,322,326,0
+D:/hat_mask_detection/kitchen_data/train_image/020.png 329,72,377,132,0 477,131,539,201,0
+D:/hat_mask_detection/kitchen_data/train_image/021.png 285,15,331,69,0
+D:/hat_mask_detection/kitchen_data/train_image/022.png 334,83,414,188,0
+D:/hat_mask_detection/kitchen_data/train_image/023.png 234,156,333,276,0
+D:/hat_mask_detection/kitchen_data/train_image/024.png 445,89,521,223,0 530,88,602,183,0
+D:/hat_mask_detection/kitchen_data/train_image/025.png 192,149,271,224,0
+D:/hat_mask_detection/kitchen_data/train_image/026.png 385,134,464,228,0 174,316,286,426,0
+D:/hat_mask_detection/kitchen_data/train_image/027.png 55,143,113,208,0
+D:/hat_mask_detection/kitchen_data/train_image/028.png 304,165,375,256,0
+D:/hat_mask_detection/kitchen_data/train_image/029.png 177,330,251,394,0
+D:/hat_mask_detection/kitchen_data/train_image/030.png 361,156,409,213,0
+D:/hat_mask_detection/kitchen_data/train_image/031.png 76,126,143,195,0 314,11,361,62,0
+D:/hat_mask_detection/kitchen_data/train_image/032.png 256,18,302,72,0 414,64,472,129,0
+D:/hat_mask_detection/kitchen_data/train_image/033.png 85,33,130,77,0 183,1,210,24,0 218,1,245,21,0 332,1,361,34,0 442,11,468,54,0 376,24,410,77,0 13,1,36,15,0 440,189,496,295,0
+D:/hat_mask_detection/kitchen_data/train_image/034.png 517,122,583,239,0
+D:/hat_mask_detection/kitchen_data/train_image/035.png 271,52,317,106,0
+D:/hat_mask_detection/kitchen_data/train_image/036.png 509,28,595,134,0
+D:/hat_mask_detection/kitchen_data/train_image/037.png 36,167,168,304,0
+D:/hat_mask_detection/kitchen_data/train_image/038.png 118,244,235,342,0
+D:/hat_mask_detection/kitchen_data/train_image/039.png 265,56,325,147,0
+D:/hat_mask_detection/kitchen_data/train_image/040.png 266,11,302,53,0 187,60,229,114,0
+D:/hat_mask_detection/kitchen_data/train_image/041.png 435,53,472,92,0
+D:/hat_mask_detection/kitchen_data/train_image/042.png 191,126,263,227,0 448,168,519,260,0 538,70,576,122,0 662,100,698,146,0 215,39,253,84,0 307,40,348,102,0 329,10,356,42,0 545,22,567,51,0
+D:/hat_mask_detection/kitchen_data/train_image/043.png 110,143,248,369,0
+D:/hat_mask_detection/kitchen_data/train_image/044.png 239,85,305,196,0
+D:/hat_mask_detection/kitchen_data/train_image/045.png 154,14,187,53,0 183,71,239,128,0 501,87,541,131,0
+D:/hat_mask_detection/kitchen_data/train_image/046.png 243,156,294,206,0
+D:/hat_mask_detection/kitchen_data/train_image/047.png 170,3,206,52,0 266,13,304,64,0
+D:/hat_mask_detection/kitchen_data/train_image/048.png 85,37,113,76,0 203,30,230,72,0 244,26,261,51,0 476,80,505,147,0 485,116,552,176,0
+D:/hat_mask_detection/kitchen_data/train_image/049.png 110,1,198,56,0
+D:/hat_mask_detection/kitchen_data/train_image/050.png 273,240,354,327,0
+D:/hat_mask_detection/kitchen_data/train_image/051.png 176,174,246,267,0 348,296,439,388,0
+D:/hat_mask_detection/kitchen_data/train_image/052.png 229,12,358,135,0
+D:/hat_mask_detection/kitchen_data/train_image/053.png 262,189,367,290,0
+D:/hat_mask_detection/kitchen_data/train_image/054.png 208,32,272,118,0
+D:/hat_mask_detection/kitchen_data/train_image/055.png 262,154,363,251,0
+D:/hat_mask_detection/kitchen_data/train_image/056.png 273,119,395,276,0
+D:/hat_mask_detection/kitchen_data/train_image/057.png 354,94,528,341,0 664,153,819,413,0
+D:/hat_mask_detection/kitchen_data/train_image/058.png 227,129,313,238,0
+D:/hat_mask_detection/kitchen_data/train_image/059.png 293,192,398,326,0 256,102,302,166,0 228,71,259,124,0 57,125,96,184,0
+D:/hat_mask_detection/kitchen_data/train_image/060.png 275,17,340,160,0
+D:/hat_mask_detection/kitchen_data/train_image/061.png 245,76,355,268,0
+D:/hat_mask_detection/kitchen_data/train_image/062.png 288,121,328,193,0 209,129,259,199,0
+D:/hat_mask_detection/kitchen_data/train_image/063.png 216,124,277,201,0 223,1,250,32,0 51,66,83,109,0 148,19,175,55,0 131,9,161,46,0
+D:/hat_mask_detection/kitchen_data/train_image/064.png 485,13,558,164,0
+D:/hat_mask_detection/kitchen_data/train_image/065.png 328,119,371,183,0 417,375,464,477,0
+D:/hat_mask_detection/kitchen_data/train_image/066.png 80,3,121,49,0 191,1,221,22,0 256,1,285,42,0 400,17,430,70,0 449,51,483,102,0
+D:/hat_mask_detection/kitchen_data/train_image/067.png 9,106,96,208,0
+D:/hat_mask_detection/kitchen_data/train_image/068.png 298,14,331,49,0 178,121,218,154,0 157,103,182,135,0
+D:/hat_mask_detection/kitchen_data/train_image/069.png 220,3,248,34,0 336,30,370,61,0 313,20,339,57,0
+D:/hat_mask_detection/kitchen_data/train_image/070.png 316,6,357,70,0
+D:/hat_mask_detection/kitchen_data/train_image/071.png 204,102,262,175,0 476,146,548,263,0 563,4,580,46,0
+D:/hat_mask_detection/kitchen_data/train_image/072.png 273,29,304,70,0 77,64,104,87,0
+D:/hat_mask_detection/kitchen_data/train_image/073.png 424,139,489,230,0 117,1,175,36,0
+D:/hat_mask_detection/kitchen_data/train_image/074.png 136,87,172,137,0 242,76,274,118,0 339,87,373,135,0 348,66,372,89,0 413,70,438,113,0 439,73,466,110,0 463,82,499,131,0 530,99,564,163,0
+D:/hat_mask_detection/kitchen_data/train_image/075.png 191,102,219,151,0 274,83,304,125,0 312,83,329,103,0 351,72,368,97,0 359,105,395,154,0 79,109,101,148,0 26,131,70,176,0 57,108,78,152,0
+D:/hat_mask_detection/kitchen_data/train_image/077.png 137,18,231,192,0
+D:/hat_mask_detection/kitchen_data/train_image/078.png 429,1,481,51,0
+D:/hat_mask_detection/kitchen_data/train_image/079.png 876,269,951,384,0 733,398,859,516,0
+D:/hat_mask_detection/kitchen_data/train_image/080.png 615,112,679,207,0 790,342,893,466,0
+D:/hat_mask_detection/kitchen_data/train_image/081.png 228,225,305,315,0 635,98,661,130,0
+D:/hat_mask_detection/kitchen_data/train_image/082.png 210,370,245,422,0 92,312,118,349,0 480,395,514,438,0
+D:/hat_mask_detection/kitchen_data/train_image/083.png 251,197,303,286,0 52,123,93,176,0 679,117,707,147,0 630,101,653,134,0
+D:/hat_mask_detection/kitchen_data/train_image/084.png 402,234,480,323,0
+D:/hat_mask_detection/kitchen_data/train_image/085.png 452,250,501,325,0 607,168,646,216,0
+D:/hat_mask_detection/kitchen_data/train_image/086.png 467,277,595,407,0 40,90,84,138,0
+D:/hat_mask_detection/kitchen_data/train_image/087.png 436,1,524,67,0
+D:/hat_mask_detection/kitchen_data/train_image/088.png 288,72,426,214,0
+D:/hat_mask_detection/kitchen_data/train_image/089.png 393,165,470,246,0 757,153,816,243,0 460,24,496,66,0 663,18,707,69,0 434,1,464,37,0 633,1,665,30,0
+D:/hat_mask_detection/kitchen_data/train_image/090.png 140,279,213,372,0
+D:/hat_mask_detection/kitchen_data/train_image/091.png 605,1,626,28,0
+D:/hat_mask_detection/kitchen_data/train_image/092.png 525,22,563,60,0 590,22,620,59,0
+D:/hat_mask_detection/kitchen_data/train_image/093.png 378,30,401,75,0 441,24,474,64,0
+D:/hat_mask_detection/kitchen_data/train_image/094.png 559,19,644,120,0
+D:/hat_mask_detection/kitchen_data/train_image/095.png 76,70,162,174,0 668,21,747,112,0
+D:/hat_mask_detection/kitchen_data/train_image/096.png 262,70,360,198,0 375,47,476,158,0
+D:/hat_mask_detection/kitchen_data/train_image/097.png 674,27,736,150,0 540,36,639,105,0 35,32,95,92,0
+D:/hat_mask_detection/kitchen_data/train_image/098.png 41,229,159,381,0 547,25,637,110,0 267,1,309,44,0 51,35,99,94,0
+D:/hat_mask_detection/kitchen_data/train_image/099.png 679,98,733,158,0
+D:/hat_mask_detection/kitchen_data/train_image/100.png 691,79,738,152,0 522,18,554,54,0 500,11,526,47,0 348,16,391,56,0 290,4,323,41,0 254,1,282,21,0
+D:/hat_mask_detection/kitchen_data/train_image/101.png 156,135,222,247,0 363,18,401,58,0 510,14,550,72,0 280,8,303,25,0
+D:/hat_mask_detection/kitchen_data/train_image/102.png 108,117,147,181,0 789,33,827,99,0 607,1,651,26,0
+D:/hat_mask_detection/kitchen_data/train_image/103.png 417,356,505,476,0 313,14,342,45,0
+D:/hat_mask_detection/kitchen_data/train_image/104.png 535,102,576,158,0
+D:/hat_mask_detection/kitchen_data/train_image/105.png 153,66,196,130,0 689,170,731,231,0
+D:/hat_mask_detection/kitchen_data/train_image/106.png 140,69,185,139,0 496,116,541,182,0
+D:/hat_mask_detection/kitchen_data/train_image/107.png 826,108,892,250,0
+D:/hat_mask_detection/kitchen_data/train_image/108.png 312,63,363,128,0 597,282,678,378,0 418,306,542,475,0 48,240,101,317,0
+D:/hat_mask_detection/kitchen_data/train_image/109.png 345,401,418,488,0 295,50,335,92,0 329,8,362,48,0
+D:/hat_mask_detection/kitchen_data/train_image/110.png 212,251,312,361,0 394,279,475,376,0 757,89,801,160,0
+D:/hat_mask_detection/kitchen_data/train_image/111.png 370,252,444,366,0 595,67,650,135,0
+D:/hat_mask_detection/kitchen_data/train_image/112.png 596,141,659,240,0 752,56,805,134,0 864,1,905,48,0 182,356,271,486,0
+D:/hat_mask_detection/kitchen_data/train_image/113.png 113,238,198,336,0 419,195,515,383,0 101,52,176,132,0
+D:/hat_mask_detection/kitchen_data/train_image/114.png 466,72,562,198,0
+D:/hat_mask_detection/kitchen_data/train_image/115.png 410,177,452,223,0 291,122,338,176,0 243,140,274,179,0
+D:/hat_mask_detection/kitchen_data/train_image/116.png 629,287,726,404,0
+D:/hat_mask_detection/kitchen_data/train_image/117.png 397,333,479,420,0
+D:/hat_mask_detection/kitchen_data/train_image/118.png 191,212,264,294,0 410,317,489,411,0
+D:/hat_mask_detection/kitchen_data/train_image/119.png 148,165,230,257,0
+D:/hat_mask_detection/kitchen_data/train_image/120.png 198,205,265,308,0 23,237,129,369,0 396,337,489,449,0
+D:/hat_mask_detection/kitchen_data/train_image/121.png 286,1,351,83,0
+D:/hat_mask_detection/kitchen_data/train_image/122.png 668,139,784,288,0
+D:/hat_mask_detection/kitchen_data/train_image/123.png 306,217,474,410,0
+D:/hat_mask_detection/kitchen_data/train_image/124.png 423,211,516,322,0 445,123,530,215,0
+D:/hat_mask_detection/kitchen_data/train_image/125.png 419,69,483,142,0
+D:/hat_mask_detection/kitchen_data/train_image/126.png 267,36,369,187,0 508,21,638,124,0
+D:/hat_mask_detection/kitchen_data/train_image/127.png 69,25,155,170,0 7,29,73,135,0
+D:/hat_mask_detection/kitchen_data/train_image/128.png 354,98,438,208,0
+D:/hat_mask_detection/kitchen_data/train_image/129.png 231,33,291,108,0 330,1,384,47,0
+D:/hat_mask_detection/kitchen_data/train_image/130.png 262,227,350,323,0
+D:/hat_mask_detection/kitchen_data/train_image/131.png 219,74,323,206,0
+D:/hat_mask_detection/kitchen_data/train_image/132.png 260,9,335,120,0 271,144,380,272,0
+D:/hat_mask_detection/kitchen_data/train_image/133.png 594,1,742,192,0
+D:/hat_mask_detection/kitchen_data/train_image/134.png 98,10,201,141,0
+D:/hat_mask_detection/kitchen_data/train_image/135.png 302,91,384,210,0
+D:/hat_mask_detection/kitchen_data/train_image/136.png 36,305,189,491,0 286,285,414,465,0
+D:/hat_mask_detection/kitchen_data/train_image/137.png 315,294,422,429,0
+D:/hat_mask_detection/kitchen_data/train_image/138.png 270,152,343,265,0
+D:/hat_mask_detection/kitchen_data/train_image/139.png 378,156,491,290,0 314,1,398,58,0
+D:/hat_mask_detection/kitchen_data/train_image/140.png 63,93,168,258,0
+D:/hat_mask_detection/kitchen_data/train_image/141.png 86,15,160,143,0
+D:/hat_mask_detection/kitchen_data/train_image/142.png 373,182,439,239,0 820,137,854,197,0
+D:/hat_mask_detection/kitchen_data/train_image/143.png 299,137,352,216,0 382,123,446,204,0 850,153,900,226,0
+D:/hat_mask_detection/kitchen_data/train_image/144.png 841,188,935,312,0 240,2,269,40,0 81,18,106,51,0
+D:/hat_mask_detection/kitchen_data/train_image/145.png 516,124,616,253,0 225,261,339,419,0
+D:/hat_mask_detection/kitchen_data/train_image/146.png 471,131,515,173,0
+D:/hat_mask_detection/kitchen_data/train_image/147.png 411,237,452,300,0 294,85,318,113,0
+D:/hat_mask_detection/kitchen_data/train_image/148.png 414,334,490,427,0 480,69,509,107,0 448,284,493,350,0
+D:/hat_mask_detection/kitchen_data/train_image/149.png 404,337,477,436,0 390,278,443,350,0 367,89,411,142,0 244,124,288,187,0 190,95,227,169,0 187,169,242,258,0
+D:/hat_mask_detection/kitchen_data/train_image/150.png 416,51,448,110,0 365,26,397,77,0 253,1,280,38,0 203,16,239,55,0
+D:/hat_mask_detection/kitchen_data/train_image/151.png 28,255,143,390,0 136,22,236,113,0
+D:/hat_mask_detection/kitchen_data/train_image/152.png 451,236,544,304,0 205,10,232,45,0
+D:/hat_mask_detection/kitchen_data/train_image/153.png 880,162,951,251,0 40,131,116,216,0 41,59,75,106,0
+D:/hat_mask_detection/kitchen_data/train_image/154.png 127,325,223,445,0 12,156,83,239,0 33,60,66,106,0
+D:/hat_mask_detection/kitchen_data/train_image/155.png 314,83,383,177,0 159,24,216,100,0
+D:/hat_mask_detection/kitchen_data/train_image/156.png 84,118,163,226,0
+D:/hat_mask_detection/kitchen_data/train_image/157.png 272,147,334,226,0 644,84,706,155,0 242,5,272,41,0 920,111,977,230,0 914,7,952,63,0 794,22,834,79,0 627,1,655,13,0
+D:/hat_mask_detection/kitchen_data/train_image/158.png 243,27,306,100,0 647,338,757,401,0 528,175,637,268,0 522,1,601,94,0
+D:/hat_mask_detection/kitchen_data/train_image/159.png 663,333,758,405,0 468,237,554,345,0 430,14,499,87,0
+D:/hat_mask_detection/kitchen_data/train_image/160.png 301,216,391,358,0
+D:/hat_mask_detection/kitchen_data/train_image/161.png 232,370,355,482,0 844,27,906,150,0
+D:/hat_mask_detection/kitchen_data/train_image/162.png 616,185,686,275,0
+D:/hat_mask_detection/kitchen_data/train_image/163.png 306,1,393,105,0 515,103,619,275,0
+D:/hat_mask_detection/kitchen_data/train_image/164.png 380,149,420,229,0 187,175,231,242,0 771,169,815,226,0 921,165,958,217,0
+D:/hat_mask_detection/kitchen_data/train_image/165.png 347,24,367,69,0 534,63,571,98,0 209,37,237,69,0 221,17,240,45,0
+D:/hat_mask_detection/kitchen_data/train_image/166.png 300,86,422,191,0
+D:/hat_mask_detection/kitchen_data/train_image/167.png 324,145,382,212,0
+D:/hat_mask_detection/kitchen_data/train_image/168.png 295,180,344,244,0 372,209,425,285,0 462,258,510,326,0
+D:/hat_mask_detection/kitchen_data/train_image/169.png 142,108,178,164,0 220,3,252,46,0 261,1,283,38,0 314,2,347,57,0 455,53,485,97,0 60,1,80,13,0
+D:/hat_mask_detection/kitchen_data/train_image/170.png 60,5,134,94,0 1,207,46,275,0
+D:/hat_mask_detection/kitchen_data/train_image/171.png 336,7,419,124,0 679,147,799,259,0
+D:/hat_mask_detection/kitchen_data/train_image/172.png 182,130,228,216,0 272,269,327,333,0 396,182,441,250,0 57,83,94,153,0 390,294,449,372,0 515,296,566,355,0 412,43,430,68,0
+D:/hat_mask_detection/kitchen_data/train_image/173.png 437,76,481,119,0 569,201,651,322,0 281,31,305,63,0 209,19,236,47,0
+D:/hat_mask_detection/kitchen_data/train_image/174.png 624,94,693,177,0 5,85,50,141,0
+D:/hat_mask_detection/kitchen_data/train_image/175.png 332,181,404,268,0 481,37,525,117,0 554,1,574,15,0 586,206,636,276,0 732,42,765,81,0 766,51,811,99,0 724,1,748,11,0 668,1,686,9,0
+D:/hat_mask_detection/kitchen_data/train_image/176.png 329,69,408,162,0
+D:/hat_mask_detection/kitchen_data/train_image/177.png 191,95,254,176,0
+D:/hat_mask_detection/kitchen_data/train_image/178.png 381,177,553,351,0
+D:/hat_mask_detection/kitchen_data/train_image/179.png 98,178,223,342,0
+D:/hat_mask_detection/kitchen_data/train_image/180.png 349,141,391,200,0
+D:/hat_mask_detection/kitchen_data/train_image/181.png 443,173,596,349,0 489,77,621,173,0 439,4,509,50,0 353,7,384,52,0
+D:/hat_mask_detection/kitchen_data/train_image/182.png 299,166,406,277,0
+D:/hat_mask_detection/kitchen_data/train_image/183.png 311,195,400,285,0
+D:/hat_mask_detection/kitchen_data/train_image/184.png 346,184,484,352,0 843,126,968,285,0
+D:/hat_mask_detection/kitchen_data/train_image/185.png 386,266,522,388,0
+D:/hat_mask_detection/kitchen_data/train_image/186.png 530,201,615,316,0
+D:/hat_mask_detection/kitchen_data/train_image/187.png 62,1,151,105,0
+D:/hat_mask_detection/kitchen_data/train_image/188.png 419,9,531,127,0
+D:/hat_mask_detection/kitchen_data/train_image/189.png 247,324,381,479,0
+D:/hat_mask_detection/kitchen_data/train_image/190.png 321,1,410,70,0
+D:/hat_mask_detection/kitchen_data/train_image/191.png 343,131,388,192,0 645,295,769,433,0
+D:/hat_mask_detection/kitchen_data/train_image/192.png 485,38,578,125,0 302,332,423,468,0
+D:/hat_mask_detection/kitchen_data/train_image/193.png 256,27,321,107,0 382,1,438,52,0 699,107,758,201,0
+D:/hat_mask_detection/kitchen_data/train_image/194.png 9,196,83,313,0 660,345,741,451,0 576,100,635,192,0 408,30,437,72,0
+D:/hat_mask_detection/kitchen_data/train_image/195.png 708,160,779,241,0 26,310,117,422,0 747,86,816,160,0 806,3,848,78,0
+D:/hat_mask_detection/kitchen_data/train_image/196.png 103,253,187,352,0 524,59,594,144,0
+D:/hat_mask_detection/kitchen_data/train_image/197.png 439,58,487,115,0
+D:/hat_mask_detection/kitchen_data/train_image/198.png 91,42,131,100,0 78,1,114,33,0 243,7,284,51,0 687,82,718,121,0 487,43,518,81,0
+D:/hat_mask_detection/kitchen_data/train_image/199.png 278,40,324,95,0 128,163,182,221,0 632,1,683,53,0
+D:/hat_mask_detection/kitchen_data/train_image/200.png 291,97,384,214,0 376,66,459,125,0 531,217,617,336,0
+D:/hat_mask_detection/kitchen_data/train_image/201.png 160,236,332,419,0 728,140,867,267,0
+D:/hat_mask_detection/kitchen_data/train_image/202.png 117,208,197,314,0 549,13,611,118,0 598,1,665,57,0 43,1,95,60,0
+D:/hat_mask_detection/kitchen_data/train_image/203.png 84,70,145,144,0
+D:/hat_mask_detection/kitchen_data/train_image/204.png 564,175,659,290,0
+D:/hat_mask_detection/kitchen_data/train_image/205.png 206,115,253,173,0
+D:/hat_mask_detection/kitchen_data/train_image/206.png 419,43,456,111,0 547,61,587,117,0 146,45,165,77,0
+D:/hat_mask_detection/kitchen_data/train_image/207.png 414,151,447,202,0
+D:/hat_mask_detection/kitchen_data/train_image/208.png 1,156,74,246,0
+D:/hat_mask_detection/kitchen_data/train_image/209.png 457,58,498,107,0 381,23,413,63,0
+D:/hat_mask_detection/kitchen_data/train_image/210.png 509,1,544,37,0 252,2,286,32,0 671,1,692,32,0
+D:/hat_mask_detection/kitchen_data/train_image/211.png 399,91,431,161,0 462,130,494,193,0 480,92,510,147,0
+D:/hat_mask_detection/kitchen_data/train_image/212.png 465,1,560,107,0
+D:/hat_mask_detection/kitchen_data/train_image/213.png 283,47,348,185,0
+D:/hat_mask_detection/kitchen_data/train_image/214.png 334,3,417,117,0

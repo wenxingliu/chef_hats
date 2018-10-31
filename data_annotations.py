@@ -18,13 +18,20 @@ def convert_annotation(annotation_path, image_id, list_file, classes):
         list_file.write(" " + ",".join([str(a) for a in b]) + ',' + str(cls_id))
 
 
-def conver_to_train_list_txt(annotation_path, image_path, classes, output_file_dir):
+def conver_to_train_list_txt(annotation_path, image_path, classes, output_file_dir, train=True):
 
     xml_names = os.listdir(annotation_path)
     image_ids = [xml_name[0:-4] for xml_name in xml_names]
-    list_file = open(output_file_dir + 'train_list.txt', 'w')
+    if train:
+        list_file = open(output_file_dir + 'train_list.txt', 'w')
+    else:
+        list_file = open(output_file_dir + 'test_list.txt', 'w')
     for image_id in image_ids:
-        list_file.write('%s%s.png' % (image_path, image_id))
+        if os.path.exists(image_path + image_id + ".jpg"):
+            suffix = ".jpg"
+        else:
+            suffix = ".png"
+        list_file.write('%s%s' % (image_path, image_id) + suffix)
         convert_annotation(annotation_path, image_id, list_file, classes)
         list_file.write('\n')
     list_file.close()
@@ -33,10 +40,16 @@ def conver_to_train_list_txt(annotation_path, image_path, classes, output_file_d
 """xml_file_path为标注后的XML文件路径，image_path为所标注的图片的路径（该路径下图片数量与标记数量要一致），
 output_txtfile_dir为输出的trainlist文件的路径，该文件包含了image的路径的bbox信息。"""
 
-xml_file_path = 'D:/hat_mask_detection/kitchen_data/annotations/'
-image_path = 'D:/hat_mask_detection/kitchen_data/train_image/'
+train_xml_file_path = 'D:\\project3\\chef_hats\\annotations\\train\\'
+train_image_path = 'D:\\project3\\chef_hats\\raw_image_data\\train_image\\'
 classes = ["head"]
-output_txtfile_dir = 'D:/hat_mask_detection/'
+train_txtfile_dir = 'D:\\project3\\chef_hats\\'
 
-conver_to_train_list_txt(xml_file_path, image_path, classes, output_txtfile_dir)
+conver_to_train_list_txt(train_xml_file_path, train_image_path, classes, train_txtfile_dir, train=True)
+
+test_xml_file_path = 'D:\\project3\\chef_hats\\annotations\\test\\'
+test_image_path = 'D:\\project3\\chef_hats\\raw_image_data\\test_image\\'
+classes = ["head"]
+test_txtfile_dir = 'D:\\project3\\chef_hats\\'
+conver_to_train_list_txt(train_xml_file_path, train_image_path, classes, train_txtfile_dir, train=False)
 

@@ -14,19 +14,19 @@ def detect_image(yolo, input_image, output_image_dir, show_img=False):
     image = Image.open(input_image)
 
     image_name = os.path.split(input_image)[1]
-    new_img = yolo.detect_image(image)
+    # png image can't be detected directly
+    if image_name.endswith(".png"):
+        jpg_image = Image.new("RGB", image.size, (255, 255, 255))
+        jpg_image.paste(image)
+        new_img = yolo.detect_image(jpg_image)
+    else:
+        new_img = yolo.detect_image(image)
     if show_img:
         new_img.show()
     name = output_image_dir + image_name[0: -4]
     new_img.save(name + '.jpg')
 
 
-# os.chdir('D:\\hat_mask_detection\\')
-# yolo = YOLO()
-# image_dir = "D:\\hat_mask_detection\\kitchen_data\\image2\\153.png"
-# output_image_dir = "D:\\hat_mask_detection\\output_image\\"
-# detect_image(yolo, image_dir, output_image_dir)
-# yolo.close_session()
 
 start = timer()
 yolo = YOLO()

@@ -11,27 +11,26 @@ import cv2
 
 
 def load_data(train_image_path, shape):
-    data = np.empty(shape=[987, shape[0], shape[1], 3])
-    labels = np.empty([987, 2])
+    data = []
+    labels = []
     hat_path = train_image_path + "/hat"
     nohat_path = train_image_path + "/no_hat"
     hat_image_dirs = [hat_path + "/" + image_dir for image_dir in os.listdir(hat_path)]
     nohat_image_dirs = [nohat_path + "/" + image_dir for image_dir in os.listdir(nohat_path)]
-
     for i, hat_image_dir in enumerate(hat_image_dirs):
         image = cv2.imread(hat_image_dir)
         image = cv2.resize(image, (shape[0], shape[1]))
-        image = img_to_array(image)
-        data[i] = image
-        labels[i, 1] = 1
+        data.append(image)
+        labels.append(1)
     for j, nohat_image_dir in enumerate(nohat_image_dirs):
         image = cv2.imread(nohat_image_dir)
         image = cv2.resize(image, (shape[0], shape[1]))
-        image = img_to_array(image)
-        data[len(hat_image_dirs) + j] = image
-        labels[len(hat_image_dirs) + j, 0] = 1
-    datas = np.array(data)
+        data.append(image)
+        labels.append(0)
+
+    datas = np.array(data, dtype='float32')
     labels = np.array(labels)
+    labels = to_categorical(labels, 2)
     datas, labels = shuffle(datas, labels)
     print("load data successfully !")
     return datas, labels

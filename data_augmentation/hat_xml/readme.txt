@@ -1,1 +1,1 @@
-This file is for hat or nohat xml files.
+This directory is for hat or nohat xml files.

@@ -2,7 +2,10 @@
 
 一 Data augmentation：
 
-将标注好的xml文件放在data_augmentation\hat_xml\目录下,原始的image data放在data_augmentation\raw_image\目录下
+将标注好的xml文件放在data_augmentation\hat_xml\目录下,
+
+原始的image data放在data_augmentation\raw_image\目录下
+
 运行apps目录下data_preprocess.py,得到增强后的数据image和xml文件
 
 说明：

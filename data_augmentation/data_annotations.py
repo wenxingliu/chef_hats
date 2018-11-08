@@ -24,7 +24,7 @@ def conver_to_train_list_txt(annotation_path, classes, output_file_dir, train_sp
     if output_file_dir == "":
         output_file_dir = 'D:\\project3\\chef_hats\\'
     xml_names = os.listdir(annotation_path)
-    image_ids = [xml_name[0:-4] for xml_name in xml_names]
+    image_ids = [xml_name[0:-4] for xml_name in xml_names if xml_name.endswith(".xml")]
     train_data_nums = int(train_split * len(image_ids))
     list_file = open(output_file_dir + 'train_list.txt', 'w')
     list_file_test = open(output_file_dir + 'test_list.txt', 'w')

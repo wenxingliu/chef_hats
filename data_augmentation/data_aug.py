@@ -57,7 +57,7 @@ def data_aug_sinlge(augmenter, xml_path, out_image_path, out_xml_path, rotate, h
 def data_aug(augmenter, xml_path, out_image_path, out_xml_path, rotate, hori_flip, add_noise):
     # out_xml_path = xml_path
     out_image_path = os.path.abspath(out_image_path)
-    all_xml_path = [xml_path + xml_name for xml_name in os.listdir(xml_path)]
+    all_xml_path = [xml_path + xml_name for xml_name in os.listdir(xml_path) if xml_name.endswith(".xml")]
     for i, single_xml_path in enumerate(all_xml_path):
         data_aug_sinlge(augmenter, single_xml_path, out_image_path, out_xml_path, rotate, hori_flip, add_noise)
     print("data augmentation successfully !")

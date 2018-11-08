@@ -4,11 +4,11 @@ from data_augmentation.data_aug import *
 from data_augmentation.data_annotations import *
 
 
-# path = os.path.abspath(__file__)
-# cwd = os.path.split(path)[0]
-# if cwd.endswith('apps'):
-#     os.chdir(cwd[0:-4])
-#     cwd = os.getcwd()
+path = os.path.abspath(__file__)
+cwd = os.path.split(path)[0]
+if cwd.endswith('apps'):
+    os.chdir(cwd[0:-4])
+    cwd = os.getcwd()
 
 """
 三步：
@@ -17,13 +17,13 @@ from data_augmentation.data_annotations import *
 3 convert to train list txt，将增强后的数据按比例划分为训练集和测试集并输出为train_list_txt文件
 """
 # raw xml and image path
-xml_path = 'D:\\project3\\chef_hats\\data_augmentation\\hat_xml\\'
-image_path = 'D:\\project3\\chef_hats\\data_augmentation\\raw_image\\'
+xml_path = './data_augmentation/hat_xml/'
+image_path = './data_augmentation/raw_image/'
 # augmented image path,auged xml path == raw xml path
-auged_image_path = 'D:\\project3\\chef_hats\\data_augmentation\\auged_image\\'
+auged_image_path = './data_augmentation/auged_image/'
 # class name and output train list txt(each line in the txt includes the image path and box information)
 classes = ["hat", "no_hat"]
-output_file_dir = 'D:\\project3\\chef_hats\\'
+output_file_dir = './'
 
 convert_image_path(xml_path, image_path)  # 转换xml文件中的原始图像路径
 augmenter = DataAugmentForObjectDetection(max_rotation_angle=5)  # 设定增强类的参数如最大旋转角度

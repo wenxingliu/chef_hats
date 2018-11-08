@@ -8,9 +8,12 @@
 说明：
 xml文件默认输出在目录data_augmentation\hat_xml\下
 image默认输出在目录data_augmentation\auged_image\下
+
 data_preprocess.py三步：
 1 转换xml文件中的原始图像路径,覆盖原来的xml文件
+
 2 Image data augmentation,若未指定xml的路径,则增强后的xml输出到原文件夹
+
 3 convert to train list txt,将增强后的数据按比例划分为训练集和测试集并输出为train_list_txt文件
   train list txt(each line in the txt includes the image path and box information)
 

@@ -1,12 +1,24 @@
 # chef_hats
 
-将原始的xml文件放在data_augmentation\data_xml\目录下，xml文件中的路径要与image对应
+一 Data augmentation：
 
-1 运行data_augs.py,得到增强后的数据image和xml文件
-  xml文件输出在目录data_augmentation\annotations\下
-  然后将原始的xml文件复制在该目录下。
+将标注好的xml文件放在data_augmentation\hat_xml\目录下,原始的image data放在data_augmentation\raw_image\目录下
+运行apps目录下data_preprocess.py,得到增强后的数据image和xml文件
 
-2 运行data_annotations.py 该脚本中的class要包括标注时添加的所有种类如“hat”，“nohat”
-  运行得到train_list和test_list的txt文件
+说明：
+xml文件默认输出在目录data_augmentation\hat_xml\下
+image默认输出在目录data_augmentation\auged_image\下
+data_preprocess.py三步：
+1 转换xml文件中的原始图像路径,覆盖原来的xml文件
+2 Image data augmentation,若未指定xml的路径,则增强后的xml输出到原文件夹
+3 convert to train list txt,将增强后的数据按比例划分为训练集和测试集并输出为train_list_txt文件
+  train list txt(each line in the txt includes the image path and box information)
 
-3 运行train.py训练
+二 Training
+ 运行train.py训练
+  先冻结前185层训练50个epoch,再全部解除冻结进行训练。
+  
+三 Test：
+  设置好路径,运行 ：
+  apps/yolo_detect_image;
+  yolo_video

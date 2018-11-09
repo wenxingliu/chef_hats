@@ -6,7 +6,7 @@ Class definition of YOLO_v3 style detection model on image and video
 import colorsys
 import os
 from timeit import default_timer as timer
-from collections import deque
+
 import numpy as np
 from keras import backend as K
 from keras.models import load_model
@@ -14,20 +14,19 @@ from keras.layers import Input
 from PIL import Image, ImageFont, ImageDraw
 
 from yolo3.model import yolo_eval, yolo_body, tiny_yolo_body
-from yolo3.utils import letterbox_image, aug_bbox_range
+from yolo3.utils import letterbox_image
+import os
 from keras.utils import multi_gpu_model
-
 
 class YOLO(object):
     _defaults = {
-        "model_path": 'logs/000/trained_weights_fina3.h5',
-        # "model_path": 'model_data/yolo.h5',
+        "model_path": 'model_data/yolo.h5',
         "anchors_path": 'model_data/yolo_anchors.txt',
-        "classes_path": 'model_data/head_classes.txt',
-        "score": 0.3,
-        "iou": 0.45,
-        "model_image_size": (416, 416),
-        "gpu_num": 1,
+        "classes_path": 'model_data/voc_classes.txt',
+        "score" : 0.15,
+        "iou" : 0.45,
+        "model_image_size" : (416, 416),
+        "gpu_num" : 1,
     }
 
     @classmethod
@@ -38,8 +37,8 @@ class YOLO(object):
             return "Unrecognized attribute name '" + n + "'"
 
     def __init__(self, **kwargs):
-        self.__dict__.update(self._defaults)  # set up default values
-        self.__dict__.update(kwargs)  # and update with user overrides
+        self.__dict__.update(self._defaults) # set up default values
+        self.__dict__.update(kwargs) # and update with user overrides
         self.class_names = self._get_class()
         self.anchors = self._get_anchors()
         self.sess = K.get_session()
@@ -104,8 +103,8 @@ class YOLO(object):
         start = timer()
 
         if self.model_image_size != (None, None):
-            assert self.model_image_size[0] % 32 == 0, 'Multiples of 32 required'
-            assert self.model_image_size[1] % 32 == 0, 'Multiples of 32 required'
+            assert self.model_image_size[0]%32 == 0, 'Multiples of 32 required'
+            assert self.model_image_size[1]%32 == 0, 'Multiples of 32 required'
             boxed_image = letterbox_image(image, tuple(reversed(self.model_image_size)))
         else:
             new_image_size = (image.width - (image.width % 32),
@@ -167,50 +166,8 @@ class YOLO(object):
         print(end - start)
         return image
 
-    def crop_image(self, image):
-        start = timer()
-
-        if self.model_image_size != (None, None):
-            assert self.model_image_size[0] % 32 == 0, 'Multiples of 32 required'
-            assert self.model_image_size[1] % 32 == 0, 'Multiples of 32 required'
-            boxed_image = letterbox_image(image, tuple(reversed(self.model_image_size)))
-        else:
-            new_image_size = (image.width - (image.width % 32),
-                              image.height - (image.height % 32))
-            boxed_image = letterbox_image(image, new_image_size)
-        image_data = np.array(boxed_image, dtype='float32')
-
-        print(image_data.shape)
-        image_data /= 255.
-        image_data = np.expand_dims(image_data, 0)  # Add batch dimension.
-
-        out_boxes, out_scores, out_classes = self.sess.run(
-            [self.boxes, self.scores, self.classes],
-            feed_dict={
-                self.yolo_model.input: image_data,
-                self.input_image_shape: [image.size[1], image.size[0]],
-                K.learning_phase(): 0
-            })
-
-        print('Found {} boxes for {}'.format(len(out_boxes), 'img'))
-        image_size = [image.size[1], image.size[0]]
-        cropped_imgs = []
-        for bbox in out_boxes:
-            top, left, bottom, right = bbox
-            top = max(0, np.floor(top + 0.5).astype('int32'))
-            left = max(0, np.floor(left + 0.5).astype('int32'))
-            bottom = min(image.size[1], np.floor(bottom + 0.5).astype('int32'))
-            right = min(image.size[0], np.floor(right + 0.5).astype('int32'))
-            cropped_img = np.array(image)[int(top): int(bottom), int(left): int(right)]
-            # img = Image.fromarray(cropped_img)
-            cropped_imgs.append(cropped_img)
-        end = timer()
-        print(end - start)
-        return cropped_imgs
-
     def close_session(self):
         self.sess.close()
-
 
 def detect_video(yolo, video_path, output_path=""):
     import cv2

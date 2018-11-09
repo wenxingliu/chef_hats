@@ -1,0 +1,35 @@
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/216.png 321,52,372,147,1 594,73,644,152,1 719,84,757,151,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/229.png 453,114,487,178,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/238.png 726,176,770,267,1 381,171,435,224,0 428,49,465,117,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/246.png 230,36,263,102,0 149,42,177,96,0 27,102,71,159,0 170,216,284,333,1 432,104,494,191,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/258.png 407,54,485,190,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/263.png 476,117,521,172,1 498,68,540,126,0 191,109,222,150,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/269.png 2,67,41,127,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/274.png 577,1,604,23,0 680,17,706,41,0 366,1,395,23,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/275.png 387,46,495,179,0 666,1,708,49,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/278.png 406,311,462,390,0 573,377,643,475,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/285.png 502,1,580,63,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/295.png 564,1,629,82,1 712,28,781,135,0 618,1,674,37,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/296.png 670,25,730,136,0 625,1,674,51,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/299.png 416,82,470,160,1 121,120,183,199,1 798,59,847,164,1 768,1,813,35,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/302.png 212,211,316,349,0 465,57,512,117,0 410,31,446,72,0 218,81,238,127,0 260,59,297,92,0 733,1,764,26,0 685,1,711,21,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/308.png 685,138,792,267,0 211,280,363,420,1 1,119,70,214,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/328.png 370,291,482,379,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/339.png 316,112,385,217,0 293,85,335,151,0 500,73,563,154,0 556,43,600,96,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/340.png 312,131,358,244,0 643,37,676,92,0 490,175,571,289,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/346.png 312,342,363,421,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/350.png 444,152,585,371,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/353.png 278,139,346,219,0 546,24,579,81,0 537,5,573,44,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/357.png 216,60,320,162,0 756,1,801,57,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/371.png 407,1,487,52,1 107,20,161,107,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/394.png 204,23,295,133,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/397.png 567,97,605,147,0 135,260,184,342,0 99,173,158,272,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/416.png 509,28,588,117,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/417.png 266,95,370,206,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/440.png 41,293,114,362,1 24,264,83,316,1 283,208,327,279,1 98,253,158,313,0
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/462.png 431,50,575,159,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/466.png 753,136,827,260,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/472.png 567,413,650,499,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/478.png 435,442,506,526,1 471,363,530,472,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/482.png 503,1,558,100,1
+E:\project\Python\keras-yolo3-master/VOCdevkit/VOC2007/JPEGImages/494.png 170,1,213,65,1

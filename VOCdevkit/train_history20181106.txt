@@ -1,0 +1,27 @@
+Epoch 51/100 - 81s 1s/step - loss: 19.8801 - val_loss: 19.2070
+Epoch 52/100 - 63s 969ms/step - loss: 20.3657 - val_loss: 18.8569
+Epoch 53/100 - 63s 972ms/step - loss: 22.7850 - val_loss: 17.6785
+Epoch 54/100 - 63s 971ms/step - loss: 20.8182 - val_loss: 20.1969
+Epoch 55/100 - 63s 973ms/step - loss: 19.0845 - val_loss: 20.5496
+Epoch 56/100 - 63s 973ms/step - loss: 20.1326 - val_loss: 19.9062
+Epoch 00056: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-06.
+Epoch 57/100 - 63s 967ms/step - loss: 19.3061 - val_loss: 18.6600
+Epoch 58/100 - 63s 973ms/step - loss: 18.3245 - val_loss: 19.1695
+Epoch 59/100 - 63s 966ms/step - loss: 19.3338 - val_loss: 16.7434
+Epoch 60/100 - 63s 972ms/step - loss: 18.5740 - val_loss: 17.7548
+Epoch 61/100 - 63s 965ms/step - loss: 19.0680 - val_loss: 17.6367
+Epoch 62/100 - 63s 971ms/step - loss: 18.4610 - val_loss: 18.6462
+Epoch 00062: ReduceLROnPlateau reducing learning rate to 9.999999747378752e-07.
+Epoch 63/100 - 63s 968ms/step - loss: 17.8917 - val_loss: 18.8249
+Epoch 64/100 - 63s 971ms/step - loss: 18.6869 - val_loss: 18.0275
+Epoch 65/100 - 63s 966ms/step - loss: 19.2797 - val_loss: 19.4325
+Epoch 00065: ReduceLROnPlateau reducing learning rate to 9.999999974752428e-08.
+Epoch 66/100 - 63s 967ms/step - loss: 17.9895 - val_loss: 19.1614
+Epoch 67/100 - 63s 970ms/step - loss: 17.6864 - val_loss: 18.6482
+Epoch 68/100 - 63s 970ms/step - loss: 18.4851 - val_loss: 17.8692
+Epoch 00068: ReduceLROnPlateau reducing learning rate to 1.0000000116860975e-08.
+Epoch 69/100 - 63s 972ms/step - loss: 18.2785 - val_loss: 18.7063
+Epoch 00069: early stopping
+
+测试集中以下编号图片有小问题：
+216 263 278 285 328 339 346 472 482

@@ -18,7 +18,7 @@ def data_aug_sinlge(augmenter, xml_path, out_image_path, out_xml_path, rotate, h
         #输出图片的路径
         auged_image_path = out_image_path + "/" + image_name[:-4] + aug_class + image_name[-4:]
         cv2.imwrite(auged_image_path, auged_image)
-        img_size = (120, 120, 3)
+        img_size = (image.shape[0], image.shape[1], 3)
         for i, box in enumerate(bbox):
             class_name = box[-1]
             auged_bbox[i].append(class_name)
@@ -34,7 +34,7 @@ def data_aug_sinlge(augmenter, xml_path, out_image_path, out_xml_path, rotate, h
         # 输出图片的路径
         auged_image_path = out_image_path + "/" + image_name[:-4] + aug_class + image_name[-4:]
         cv2.imwrite(auged_image_path, auged_image)
-        img_size = (120, 120, 3)
+        img_size = (image.shape[0], image.shape[1], 3)
         for i, box in enumerate(bbox):
             class_name = box[-1]
             auged_bbox[i].append(class_name)
@@ -49,7 +49,7 @@ def data_aug_sinlge(augmenter, xml_path, out_image_path, out_xml_path, rotate, h
         # 输出图片的路径
         auged_image_path = out_image_path + "/" + image_name[:-4] + aug_class + image_name[-4:]
         cv2.imwrite(auged_image_path, auged_image)
-        img_size = (120, 120, 3)
+        img_size = (image.shape[0], image.shape[1], 3)
         generate_xml(auged_image_path, auged_bbox, img_size, out_xml_path)
         # show_pic(auged_image, auged_bbox)
 
@@ -63,7 +63,7 @@ def data_aug(augmenter, xml_path, out_image_path, out_xml_path, rotate, hori_fli
     print("data augmentation successfully !")
 
 
-if __name__ == "main":
+if __name__ == "__main__":
     xml_path = os.path.dirname(__file__) + "/data_xml/"
     out_image_path = os.path.dirname(__file__) + "/augmented_data/image"
     out_xml_path = os.path.dirname(__file__) + "/augmented_data/annotations"

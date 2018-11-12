@@ -28,18 +28,11 @@ def detect_image(yolo, input_image, output_image_dir, show_img=False):
     new_img.save(name)
 
 
-# os.chdir('D:\\hat_mask_detection\\')
-# yolo = YOLO()
-# image_dir = "D:\\hat_mask_detection\\kitchen_data\\image2\\153.png"
-# output_image_dir = "D:\\hat_mask_detection\\output_image\\"
-# detect_image(yolo, image_dir, output_image_dir)
-# yolo.close_session()
-
 if __name__ == '__main__':
     start = timer()
     yolo = YOLO()
-    all_image_dir = 'C:\\dev\\chef_hats\\data\\raw_data\\'
-    output_image_dir = "C:\\dev\\chef_hats\\data\\output\\"
+    all_image_dir = ''
+    output_image_dir = ''
     image_list = os.listdir(all_image_dir)[:5]
     image_dirs = [all_image_dir + image for image in image_list]
     for image_dir in image_dirs:

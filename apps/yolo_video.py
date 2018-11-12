@@ -58,5 +58,5 @@ def detect_video(yolo, video_path, output_path=""):
 
 if __name__ == '__main__':
     yolo = YOLO()
-    video_path = 'D:/project3/chef_hats/video/2.mp4'
+    video_path = ''
     detect_video(yolo, video_path)

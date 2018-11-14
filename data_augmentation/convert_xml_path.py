@@ -2,6 +2,7 @@
 import xml.etree.ElementTree as ET
 import os
 
+__author__ = 'WangZe'
 
 """xml文件中的image path信息要与不同机器的image path对应，该脚本进行xml中 path的转换，
 输入为原始xml文件的路径，当前机器对应image data的路径，以及输出xml文件的路径，

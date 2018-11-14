@@ -26,8 +26,9 @@
 
 二 Training
 
-     运行train.py训练
-      先冻结前185层训练50个epoch,再全部解除冻结进行训练。
+      1 train_list.txt设置好以后, 先运行kmeans.py，生成该数据集对应的yolo_anchors，然后放在/model_data/.
+      2 运行train.py训练
+        先冻结前185层训练50个epoch,再全部解除冻结进行训练。
   
 三 Test：
 

@@ -3,6 +3,7 @@ from data_augmentation.convert_xml_path import *
 from data_augmentation.data_aug import *
 from data_augmentation.data_annotations import *
 
+__author__ = 'WangZe'
 
 path = os.path.abspath(__file__)
 cwd = os.path.split(path)[0]

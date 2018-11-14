@@ -9,6 +9,7 @@ from yolo import YOLO
 from PIL import Image
 from timeit import default_timer as timer
 
+__author__ = 'WangZe'
 
 def crop_image(yolo, input_image, output_image_dir, show_img=False):
     image = Image.open(input_image)

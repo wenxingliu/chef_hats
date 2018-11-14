@@ -3,6 +3,7 @@ from data_augmentation.DataAugmentForObjectDetection import *
 import cv2
 import os
 
+__author__ = 'WangZe'
 
 def data_aug_sinlge(augmenter, xml_path, out_image_path, out_xml_path, rotate, hori_flip, add_noise):
     # 读取原图片路径和box

@@ -1,6 +1,7 @@
 import xml.etree.ElementTree as ET
 import os
 
+__author__ = 'WangZe'
 
 def convert_annotation(annotation_path, image_id, list_file, classes):
     in_file = open(annotation_path + '%s.xml' % image_id)
